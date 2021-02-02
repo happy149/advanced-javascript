@@ -69,9 +69,27 @@ const result =  numbers.map (function(element){
     return element * element;
 
 console.log(result); */
+/*
 
 //map short way
 const numbers =[3,4,5,6,7,8];
 const result = numbers.map(x => x * x);
 console.log(result); 
+*/
 
+// Filter
+//olpo kicu select korar jonno
+/*jokho boro kicu chabo
+const numbers =[3,4,5,6,7,8,9];
+const bigger = numbers.filter (x => x > 5);
+console.log(bigger); */
+/*jokho coto kicu chabo
+const numbers =[3,4,5,6,7,8,9];
+const Smaller = numbers.filter (x => x < 5);
+console.log(Smaller); */
+
+//Find
+// prothom ja number ta paba 
+/*const numbers = [3,4,5,6,7,8,9];
+const isThere = numbers.find(x => x > 5);
+console.log(isThere); */
